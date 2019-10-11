@@ -24,6 +24,4 @@ coverage
 build/
 dist/
 
-#generated data
-server/database/seedData.json
 

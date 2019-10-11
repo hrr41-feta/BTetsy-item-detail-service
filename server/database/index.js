@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 var seedData = require('./seedData.json');
-//console.log(myData);
 
 mongoose.connect('mongodb://localhost/BTetsy', { useNewUrlParser: true, useUnifiedTopology: true })
   .catch(error => console.log(error));
@@ -17,18 +16,6 @@ const itemDetailsSchema = new mongoose.Schema({
 
 const itemDetails = mongoose.model('itemDetails', itemDetailsSchema);
 
-
-https://stackoverflow.com/questions/16726330/mongoose-mongodb-batch-insert
-var onInsert = function(err, docs) {
-  if (err) {
-    console.log(err);
-  } else {
-    console.info('%d product details were successfully stored.', docs.length);
-  }
+module.exports = {
+  itemDetails
 };
-
-
-itemDetails.insertMany(seedData, onInsert);
-
-
-module.exports.itemDetails = itemDetails;

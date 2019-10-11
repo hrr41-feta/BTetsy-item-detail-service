@@ -1,13 +1,12 @@
-var seeder = require('mongoose-seed');
-var data = require('./seedData.js');
-var itemDetails = require('./index.js');
-seeder.connect('mongodb://localhost/item-details', function() {
-  seeder.loadModels([
-    './server/database/index.js'
-  ]);
-  seeder.clearModels(['itemDetails'], function() {
-    seeder.populateModels(data, function() {
-      seeder.disconnect();
-    });
-  });
-});
+const mongoose = require('mongoose');
+const seedData = require('./seedData.json');
+const itemDetails = require('./index.js').itemDetails;
+
+var onInsert = function(err, docs) {
+  if (err) {
+    console.log(err);
+  } else {
+    console.info('%d item details were successfully stored.', docs.length);
+  }
+};
+itemDetails.insertMany(seedData, onInsert);
