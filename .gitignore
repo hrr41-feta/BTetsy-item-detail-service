@@ -25,5 +25,5 @@ build/
 dist/
 
 #generated data
-./server/database/seedData.json
+server/database/seedData.json
 
