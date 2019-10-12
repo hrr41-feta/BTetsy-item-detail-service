@@ -10,7 +10,7 @@ app.get('/', function(req, res) {
   console.log(itemDetails);
   console.log(fetch);
   res.status(200);
-  fetch(res.send.bind(res));
+  fetch(itemDetails, res.send.bind(res));
 });
 
 app.listen(port, function() {
