@@ -9,7 +9,6 @@ app.get('/', function(req, res) {
   models.getOneItem()
     .then((value) => res.json(value))
     .catch((error) => console.log(error));
-
   //res.json(itemDetailsModel.getOneItem());
 });
 
