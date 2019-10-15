@@ -7,7 +7,7 @@ const port = 3000;
 
 app.get('/', function(req, res) {
   models.getOneItem()
-    .then((value) => console.log(value))
+    .then((value) => res.json(value))
     .catch((error) => console.log(error));
 
   //res.json(itemDetailsModel.getOneItem());
