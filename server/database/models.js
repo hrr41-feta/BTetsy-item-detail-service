@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
-const itemDetails = require('./index.js').itemDetails;
+const { itemDetails } = require('./index.js');
 
-var getOneItem = function() {
+// eslint-disable-next-line func-names
+const getOneItem = function () {
   return itemDetails.findOne();
 };
 
@@ -10,5 +10,5 @@ var getOneItem = function() {
 //   return itemDetails;
 // }
 module.exports = {
-  getOneItem
+  getOneItem,
 };

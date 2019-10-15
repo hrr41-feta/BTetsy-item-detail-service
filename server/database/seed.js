@@ -1,8 +1,9 @@
-const mongoose = require('mongoose');
+/* eslint-disable no-console */
+/* eslint-disable func-names */
 const seedData = require('./seedData.json');
-const itemDetails = require('./index.js').itemDetails;
+const { itemDetails } = require('./index.js');
 
-var onInsert = function(err, docs) {
+const onInsert = function (err, docs) {
   if (err) {
     console.log(err);
   } else {

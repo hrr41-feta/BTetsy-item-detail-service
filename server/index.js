@@ -1,17 +1,18 @@
 const express = require('express');
 const models = require('./database/models.js');
-let app = express();
+
+const app = express();
 app.use(express.json());
-app.use(express.static(__dirname + '/../client/dist'));
+app.use(express.static(`${__dirname}/../client/dist`));
 const port = 3000;
 
-app.get('/', function(req, res) {
+app.get('/', (req, res) => {
   models.getOneItem()
     .then((value) => res.json(value))
-    .catch((error) => console.log(error));
-  //res.json(itemDetailsModel.getOneItem());
+    .catch((error) => error);
 });
 
-app.listen(port, function() {
+app.listen(port, () => {
+  // eslint-disable-next-line no-console
   console.log(`listening on port ${port}`);
 });
