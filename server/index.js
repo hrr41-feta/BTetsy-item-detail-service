@@ -1,16 +1,16 @@
 const express = require('express');
-const itemDetails = require('./database/index.js').itemDetails;
-const fetch = require('./database/models.js').fetch;
+const models = require('./database/models.js');
 let app = express();
 app.use(express.json());
 app.use(express.static(__dirname + '/../client/dist'));
 const port = 3000;
 
 app.get('/', function(req, res) {
-  console.log(itemDetails);
-  console.log(fetch);
-  res.status(200);
-  fetch(itemDetails, res.send.bind(res));
+  models.getOneItem()
+    .then((value) => console.log(value))
+    .catch((error) => console.log(error));
+
+  //res.json(itemDetailsModel.getOneItem());
 });
 
 app.listen(port, function() {
