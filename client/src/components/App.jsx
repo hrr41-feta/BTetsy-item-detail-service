@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ItemDescription from './itemDescription.jsx';
+import ShopPolicies from './shopPolicies.jsx';
 import sampleData from '../sampleData.js';
 
 function App() {
@@ -7,7 +8,12 @@ function App() {
 
   return (
     <div>
-      <ItemDescription description={sampleData.sampleData[0].productId.productDescription} />
+      <div>
+        <ItemDescription description={sampleData.sampleData[0].productId.productDescription} />
+      </div>
+      <div>
+      <ShopPolicies policies={sampleData.sampleData[0].shopPolicies} />
+    </div>
     </div>
   );
 }
