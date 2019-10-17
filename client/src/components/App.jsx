@@ -7,9 +7,9 @@ function App() {
 
   return (
     <div>
-      <ItemDescription description={sampleData.sampleData[0]} />
+      <ItemDescription description={sampleData.sampleData[0].productId.productDescription} />
     </div>
-  )
+  );
 }
 
 export default App;
