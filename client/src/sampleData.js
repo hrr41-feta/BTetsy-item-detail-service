@@ -8,10 +8,10 @@ module.exports.sampleData = [
       returnsAndExchange: 'Est commodo amet labore velit amet. Officia sit irure nulla in laboris cupidatat ut esse in. Est enim voluptate enim velit fugiat excepteur eiusmod duis proident veniam sit. Velit ex laboris laborum commodo do ad cillum ex commodo anim Lorem ad voluptate labore. Labore mollit officia velit do deserunt officia. Ipsum tempor laborum minim commodo ad culpa do ipsum ipsum ex aliqua sint commodo.',
       additionalPolicies: 'Pariatur dolore nisi Lorem in. Aliqua deserunt deserunt esse commodo ea laboris mollit laborum cillum aliqua pariatur minim velit est. Non eiusmod officia duis anim consectetur adipisicing fugiat consequat sit. Consectetur in est aliquip et nostrud velit elit aliqua nostrud in.',
     },
-    faq: {
+    faq: [{
       question: 'Veniam est voluptate nostrud eu dolore sunt elit consectetur consectetur consectetur aliqua minim veniam.',
       answer: 'Ullamco aliqua ullamco cillum ipsum eiusmod nisi esse aliquip consequat ipsum.',
-    },
+    }],
     vendorPhoto: 'https://picsum.photos/200/200}}',
     vendorResponseTime: 'Labore ullamco magna pariatur incididunt laborum ut eiusmod eu do qui.',
     messages: {

@@ -2,31 +2,25 @@ import styled from 'styled-components';
 
 export const Overlay = styled.div`
     display: ${(props) => (props.toggle ? 'none' : 'block')};
-    position:absolute;
+    position:fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
     background-color:rgba(0,0,0,0.5);
 `;
 
 export const ModalWindow = styled.div`
-    display : block
-    width: 300px;
-    height: auto;
-    line-height: 50px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -30px;
-    margin-left: -150px;
-    background-color: #f1c40f;
-    border-radius: 5px;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
     text-align: left;
     white-space: wrap;
     text-size-adjust: 100%;
-    z-index: 11; /* 1px higher than the overlay layer */
+    z-index: 2; /* 1px higher than the overlay layer */
 `;
 export const ReadMore = styled.span`
   display: ${(props) => (props.toggle ? 'none' : 'inline')};
@@ -47,6 +41,10 @@ export const ReadMoreButton = styled.button`
   line-height: 1.4;
 `;
 
+export const FaqQuestionsButton = styled(ReadMoreButton)`
+  display:inline
+`;
+
 export const ReadLessButton = styled.button`
   background-color: transparent;
   border: none;
@@ -60,10 +58,14 @@ export const ReadLessButton = styled.button`
   font-size: 14px;
   line-height: 1.4;
   display:${(props) => (props.toggle ? 'none' : 'inline')}
-`
+`;
 
 export const ButtonLabel = styled.span`
     font-size: 14px;
     line-height: 1.4;
     text-decoration: underline
+`;
+
+export const ReadButton = styled(ReadMoreButton)`
+  display: inline
 `

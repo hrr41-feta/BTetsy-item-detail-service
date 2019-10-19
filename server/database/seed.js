@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 /* eslint-disable func-names */
-const seedData = require('./seedData.json');
+const seedData = require('./SeedData.json');
 const { itemDetails } = require('./index.js');
 
 const onInsert = function (err, docs) {
