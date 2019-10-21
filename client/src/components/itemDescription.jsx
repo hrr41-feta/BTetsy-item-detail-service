@@ -14,18 +14,18 @@ const ItemDescription = ({ description }) => {
       {description.slice(0, description.length / 2)}
       <ReadMore toggle={toggle}>{description.slice(description.length / 2)}</ReadMore>
       <div>
-          <ReadMoreButton toggle={toggle} onClick={() => setToggle(!toggle)}>
-            {' '}
-            <ButtonLabel> + Learn More About This Item </ButtonLabel>
-          </ReadMoreButton>
-        </div>
+        <ReadMoreButton toggle={toggle} onClick={() => setToggle(!toggle)}>
+          {' '}
+          <ButtonLabel> + Learn More About This Item </ButtonLabel>
+        </ReadMoreButton>
+      </div>
       <div>
-          <ReadLessButton toggle={toggle} onClick={() => setToggle(!toggle)}>
-            {' '}
-            <ButtonLabel> - Less </ButtonLabel>
-            {' '}
-          </ReadLessButton>
-        </div>
+        <ReadLessButton toggle={toggle} onClick={() => setToggle(!toggle)}>
+          {' '}
+          <ButtonLabel> - Less </ButtonLabel>
+          {' '}
+        </ReadLessButton>
+      </div>
     </div>
   );
 };

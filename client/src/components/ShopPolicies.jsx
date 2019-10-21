@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Overlay, ModalWindow, ReadButton, ButtonLabel, ReadMore,
+  Overlay, ModalWindow, ReadButton, ButtonLabel, CloseModal, TitleText,
 } from './StyleSheet.js';
 
 
@@ -14,8 +14,10 @@ const ShopPolicies = ({ policies }) => {
     <div>
       <Overlay toggle={toggle}>
         <ModalWindow>
-          <button onClick={() => setToggle(!toggle)}> X </button>
+          <CloseModal onClick={() => setToggle(!toggle)}> &times; </CloseModal>
           <div>
+            <TitleText>Returns and Exchanges</TitleText>
+            <div />
             {' '}
             {ReturnsAndExchanges ? policies.returnsAndExchange.slice(0, ((policies.returnsAndExchange.length) / 2)) : policies.returnsAndExchange}
             {' '}
@@ -23,23 +25,36 @@ const ShopPolicies = ({ policies }) => {
           <div />
           <ReadButton onClick={() => setReturnsAndExchanges(!ReturnsAndExchanges)}>
             <ButtonLabel>
-              {ReturnsAndExchanges ? 'Read More' : 'Read Less'}
+              {ReturnsAndExchanges ? ' + More' : ' - Less'}
             </ButtonLabel>
           </ReadButton>
-          <div></div>
+          <div />
+          <TitleText>Shopping Policies</TitleText>
+          <div />
           <div>
+
+          We ship almost all of our items USPS Priority mail, which usually takes 2-3 business days to arrive (per USPS guidelines). If you require tracking or other shipping services please let me know and payment for rush shipping can be arranged.
+
+          International orders can take up to 14-21 business days or more to arrive. If you need your order sooner, please contact us for upgraded shipping options. Please note for international orders we are not responsible for any additional custom charges that might occur. We do not know if or when a package will be charged or taxed and it's not part of the shipping cost.
+
+          </div>
+          <div>
+            <TitleText> Payment Info </TitleText>
+            <div />
             {' '}
-            {ReturnsAndExchanges ? policies.returnsAndExchange.slice(0, ((policies.returnsAndExchange.length) / 2)) : policies.returnsAndExchange}
+            {PaymentInfo ? policies.returnsAndExchange.slice(0, ((policies.returnsAndExchange.length) / 2)) : policies.returnsAndExchange}
             {' '}
           </div>
           <div />
-          <ReadButton onClick={() => setReturnsAndExchanges(!ReturnsAndExchanges)}>
+          <ReadButton onClick={() => setPaymentInfo(!PaymentInfo)}>
             <ButtonLabel>
-              {ReturnsAndExchanges ? 'Read More' : 'Read Less'}
+              {PaymentInfo ? ' + More' : ' - Less'}
             </ButtonLabel>
           </ReadButton>
-          <div></div>
+          <div />
           <div>
+            <TitleText> Additional Policies </TitleText>
+            <div />
             {' '}
             {AdditionalPolicies ? policies.additionalPolicies.slice(0, ((policies.additionalPolicies.length) / 2)) : policies.additionalPolicies}
             {' '}
@@ -47,13 +62,13 @@ const ShopPolicies = ({ policies }) => {
           <div />
           <ReadButton onClick={() => setAdditionalPolicies(!AdditionalPolicies)}>
             <ButtonLabel>
-              {AdditionalPolicies ? 'Read More' : 'Read Less'}
+              {AdditionalPolicies ? ' + More' : ' - Less'}
             </ButtonLabel>
           </ReadButton>
-          <div></div>
+          <div />
         </ModalWindow>
       </Overlay>
-      <button onClick={() => setToggle(!toggle)}> Display</button>
+      <button onClick={() => setToggle(!toggle)}> View Shop Policies </button>
     </div>
   );
 };
