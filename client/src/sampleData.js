@@ -18,8 +18,8 @@ module.exports.sampleData = [
       userId: 4516,
       message: 'Aliqua esse laboris occaecat ea aute quis.',
     },
-    productId: {
+    productId: [{
       productName: 'Ea non deserunt laboris aliqua excepteur sint enim amet duis magna laboris ipsum.',
       productDescription: 'Consequat eiusmod occaecat esse amet nisi eu sint eu. Amet esse magna sit esse voluptate commodo ipsum Lorem aute. Duis Lorem aute sint laboris adipisicing. Sint do et ut ex culpa voluptate magna sunt occaecat in incididunt do cupidatat excepteur. Labore aliqua voluptate occaecat id id sit ex aliquip ipsum voluptate excepteur. Officia incididunt quis veniam anim consectetur. Eu tempor pariatur id nostrud ullamco esse sint magna nisi veniam id tempor reprehenderit.',
-    },
+    }],
   }];

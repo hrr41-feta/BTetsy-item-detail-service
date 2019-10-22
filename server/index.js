@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(express.static(`${__dirname}/../client/dist`));
 const port = 3000;
 
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
   models.getOneItem()
     .then((value) => res.json(value))
     .catch((error) => error);

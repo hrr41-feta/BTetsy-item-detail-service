@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
-  ReadMore, ReadMoreButton, ReadLessButton, ButtonLabel,
+  ReadMore, ReadMoreButton, ReadLessButton, ButtonLabel, ItemDescriptionContainer
 } from './StyleSheet.js';
 
 // should render data from productId. item description
@@ -10,7 +10,7 @@ import {
 const ItemDescription = ({ description }) => {
   const [toggle, setToggle] = useState(true);
   return (
-    <div>
+    <ItemDescriptionContainer>
       {description.slice(0, description.length / 2)}
       <ReadMore toggle={toggle}>{description.slice(description.length / 2)}</ReadMore>
       <div>
@@ -26,7 +26,7 @@ const ItemDescription = ({ description }) => {
           {' '}
         </ReadLessButton>
       </div>
-    </div>
+    </ItemDescriptionContainer>
   );
 };
 

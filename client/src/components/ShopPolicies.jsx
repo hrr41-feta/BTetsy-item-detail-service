@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Overlay, ModalWindow, ReadButton, ButtonLabel, CloseModal, TitleText,
+  Overlay, ModalWindow, ReadButton, ButtonLabel, CloseModal, TitleText, ModalBody, ModalHeader
 } from './StyleSheet.js';
 
 
@@ -14,9 +14,15 @@ const ShopPolicies = ({ policies }) => {
     <div>
       <Overlay toggle={toggle}>
         <ModalWindow>
+          <ModalHeader>
           <CloseModal onClick={() => setToggle(!toggle)}> &times; </CloseModal>
+             <div>Shop Policies</div>
+
+          </ModalHeader>
+          <ModalBody>
+
           <div>
-            <TitleText>Returns and Exchanges</TitleText>
+            <TitleText>Returns and exchanges</TitleText>
             <div />
             {' '}
             {ReturnsAndExchanges ? policies.returnsAndExchange.slice(0, ((policies.returnsAndExchange.length) / 2)) : policies.returnsAndExchange}
@@ -29,7 +35,7 @@ const ShopPolicies = ({ policies }) => {
             </ButtonLabel>
           </ReadButton>
           <div />
-          <TitleText>Shopping Policies</TitleText>
+          <TitleText>Shipping policies</TitleText>
           <div />
           <div>
 
@@ -39,7 +45,7 @@ const ShopPolicies = ({ policies }) => {
 
           </div>
           <div>
-            <TitleText> Payment Info </TitleText>
+            <TitleText> Payment info </TitleText>
             <div />
             {' '}
             {PaymentInfo ? policies.returnsAndExchange.slice(0, ((policies.returnsAndExchange.length) / 2)) : policies.returnsAndExchange}
@@ -53,7 +59,7 @@ const ShopPolicies = ({ policies }) => {
           </ReadButton>
           <div />
           <div>
-            <TitleText> Additional Policies </TitleText>
+            <TitleText> Additional policies </TitleText>
             <div />
             {' '}
             {AdditionalPolicies ? policies.additionalPolicies.slice(0, ((policies.additionalPolicies.length) / 2)) : policies.additionalPolicies}
@@ -66,9 +72,10 @@ const ShopPolicies = ({ policies }) => {
             </ButtonLabel>
           </ReadButton>
           <div />
+          </ModalBody>
         </ModalWindow>
       </Overlay>
-      <button onClick={() => setToggle(!toggle)}> View Shop Policies </button>
+      <ReadButton onClick={() => setToggle(!toggle)}> <ButtonLabel>View Shop Policies </ButtonLabel></ReadButton>
     </div>
   );
 };

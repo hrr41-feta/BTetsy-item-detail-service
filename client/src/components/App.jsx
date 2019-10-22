@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import ItemDescription from './itemDescription.jsx';
 import ShopPolicies from './ShopPolicies.jsx';
 import FaqList from './FaqList.jsx';
@@ -7,17 +8,27 @@ import sampleData from '../sampleData.js';
 
 function App() {
   // const [description, getDescription] = useState(sampleData[0].productId.productDescription);
-  const data = sampleData.sampleData[0];
+  const sample = sampleData.sampleData[0];
+  const [data, setData] = useState(sample);
+
+  async function fetchData() {
+    const res = await axios.get('/index');
+    const tempData = res.data;
+    setData(tempData);
+  }
+  useEffect(() => {
+    fetchData();
+  });
   return (
     <div>
       <div>
-        <ItemDescription description={sampleData.sampleData[0].productId.productDescription} />
+        <ItemDescription description={data.productId[0].productDescription} />
       </div>
       <div>
-        <ShopPolicies policies={sampleData.sampleData[0].shopPolicies} />
+        <ShopPolicies policies={data.shopPolicies} />
       </div>
       <div>
-        <FaqList faqList={sampleData.sampleData[0].faq} />
+        <FaqList faqList={data.faq} />
       </div>
       <div>
         <Messages
