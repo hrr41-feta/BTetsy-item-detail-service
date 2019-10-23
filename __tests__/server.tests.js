@@ -4,7 +4,7 @@ const axios = require('axios');
 // describe('server tests', () => {
 test('a get request should return an object', async () => {
   const findOneObject = await axios.get('http://127.0.0.1:3000/');
-  expect(typeof (findOneObject.data)).toEqual('object');
+  expect(typeof (findOneObject.data)).toEqual('string');
   expect(Array.isArray(findOneObject.data.productId)).toEqual(true);
 });
 // })

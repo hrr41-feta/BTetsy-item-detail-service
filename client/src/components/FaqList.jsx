@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { ReadMore, FaqQuestionsButton, ButtonLabel } from './StyleSheet.js';
+import { ReadMore, FaqQuestionsButton, FaqButtonLabel, FaqContainer } from './StyleSheet.js';
 import FaqEntry from './FaqEntry.jsx';
 
 const FaqList = ({ faqList }) => {
   const [toggle, setToggle] = useState(true);
   return (
     <div>
+      <FaqContainer>
       <FaqQuestionsButton onClick={() => setToggle(!toggle)}>
-        <ButtonLabel> FAQ's </ButtonLabel>
+        <FaqButtonLabel> FAQ's </FaqButtonLabel>
       </FaqQuestionsButton>
       <ReadMore toggle={toggle}>
         {faqList.map((faq, index) => <FaqEntry key={index} faq={faq} />)}
       </ReadMore>
+      </FaqContainer>
     </div>
 
   );
