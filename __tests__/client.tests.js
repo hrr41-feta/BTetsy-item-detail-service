@@ -8,6 +8,6 @@ Enzyme.configure({ adapter: new Adapter() });
 describe('checking value of toggle', () => {
   test('it tests that the initial value of toggle is true', () => {
     const wrapper = Enzyme.mount(<ItemDescription description="hello" />);
-    expect(wrapper.find('.description').text()).toBe("hello");
+    expect(wrapper.find('.description').text()).toBe('hello');
   });
 });

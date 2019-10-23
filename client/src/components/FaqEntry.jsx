@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
-import { FaqQuestionsButton, ButtonLabel, ReadMore } from './StyleSheet.js';
+import { FaqQuestionsButton, FaqQuestionButtonLabel, ReadMore } from './StyleSheet.js';
 
 const FaqEntry = ({ faq }) => {
   const [toggle, setToggle] = useState(true);
   return (
     <div>
       <FaqQuestionsButton onClick={() => setToggle(!toggle)}>
-        <ButtonLabel>{faq.question}</ButtonLabel>
+        <FaqQuestionButtonLabel>{faq.question}</FaqQuestionButtonLabel>
       </FaqQuestionsButton>
       <div>
         <ReadMore toggle={toggle}>{faq.answer}</ReadMore>

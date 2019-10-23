@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
-  Overlay, MessageModal, ReadMore, ReadButton, TitleText, ButtonLabel, CloseModal, MessageInput, MessageMeet, VendorPhoto, VendorName, VendorLocation, MessageSellerButton,
+ MessageModal, TitleText, CloseModal, MessageInput, MessageMeet, VendorName, VendorLocation, MessageSellerButton, MeetSection, VendorNameTitle, VendorNameAndLocation, VendorPhotoAndLocation, VendorIcon
 } from './StyleSheet.js';
 
 
@@ -10,10 +10,10 @@ const Messages = ({
   const [toggle, setToggle] = useState(true);
   const [MessageToggle, setMessages] = useState(true);
   return (
-    <div>
+    <MeetSection>
       <div>
         <MessageMeet>
-Meet
+          Meet
           {' '}
           <VendorName>
             {' '}
@@ -23,22 +23,31 @@ Meet
         </MessageMeet>
       </div>
       <div>
-        <img src="Girl In a Jacket" />
-      </div>
-      <div>
+        <VendorPhotoAndLocation>
+        <VendorIcon>
+        <img src={vendorPhoto} alt=" "/>
+        </VendorIcon>
+        <VendorNameAndLocation>
+        <VendorNameTitle> {vendorFirstName} </VendorNameTitle>
         <VendorLocation>{vendorLocation}</VendorLocation>
+        </VendorNameAndLocation>
+
+        </VendorPhotoAndLocation>
+      </div>
+
+      <div>
+
       </div>
       <div>
         <MessageModal toggle={toggle}>
           <CloseModal onClick={() => setToggle(!toggle)}> &times; </CloseModal>
           <TitleText>Messages</TitleText>
-          {messages}
           <div />
           <MessageInput placeholder="Write a Message" />
         </MessageModal>
         <MessageSellerButton onClick={() => setToggle(!toggle)}> Message the Seller </MessageSellerButton>
       </div>
-    </div>
+    </MeetSection>
   );
 };
 

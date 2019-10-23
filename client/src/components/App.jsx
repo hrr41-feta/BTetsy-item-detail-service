@@ -25,10 +25,7 @@ function App() {
         <ItemDescription description={data.productId[0].productDescription} />
       </div>
       <div>
-        <ShopPolicies policies={data.shopPolicies} />
-      </div>
-      <div>
-        <FaqList faqList={data.faq} />
+        <ShopPolicies policies={data.shopPolicies} country={data.vendorCountry} />
       </div>
       <div>
         <Messages
@@ -39,6 +36,9 @@ function App() {
           vendorLocation={data.vendorLocation}
           vendorPhoto={data.vendorPhoto}
         />
+      </div>
+      <div>
+        <FaqList faqList={data.faq} />
       </div>
     </div>
   );
