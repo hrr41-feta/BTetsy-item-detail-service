@@ -17,8 +17,8 @@ const ItemDescription = ({ description }) => {
       </ItemDescriptionList>
       <ReadButton onClick={() => setToggle(!toggle)}>
         <ButtonLabel>
-        {toggle ? ' + Learn More About This Item' : ' - Less'}
-      </ButtonLabel>
+          {toggle ? ' + Learn More About This Item' : ' - Less'}
+        </ButtonLabel>
       </ReadButton>
     </ItemDescriptionContainer>
   );

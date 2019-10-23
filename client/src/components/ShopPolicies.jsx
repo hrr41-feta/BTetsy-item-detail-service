@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import {
-  Overlay, ModalWindow, ReadButton, ButtonLabel, CloseModal, TitleText, ModalBody, ModalHeader, MadeForYou, ShippingAndReturns, FromCountry, ShopPolicyContainer, ExceptionsMayApply
+  Overlay, ModalWindow, ReadButton, ButtonLabel, CloseModal, TitleText, ModalBody, ModalHeader, MadeForYou, ShippingAndReturns, FromCountry, ShopPolicyContainer, ExceptionsMayApply,
 } from './StyleSheet';
 
 
@@ -22,12 +22,12 @@ const ShopPolicies = ({ policies, country }) => {
 From
         {' '}
         {country}
-      <div></div>
+        <div />
       </FromCountry>
       <MadeForYou>
 Returns and exchanges accepted
-<ExceptionsMayApply>Exceptions may apply.</ExceptionsMayApply>
-            </MadeForYou>
+        <ExceptionsMayApply>Exceptions may apply.</ExceptionsMayApply>
+      </MadeForYou>
 
       <Overlay toggle={toggle}>
         <ModalWindow>
