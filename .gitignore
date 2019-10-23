@@ -24,6 +24,3 @@ coverage
 build/
 dist/
 
-
-#package-lock and generated data
-*.json

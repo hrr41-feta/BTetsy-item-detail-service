@@ -136,7 +136,7 @@ export const MessageMeet = styled.div`
 `;
 
 export const VendorName = styled(MessageMeet)`
-  display: inline
+  display: inline-block;
   text-decoration-line: underline;
   cursor: pointer
 `;
@@ -193,7 +193,13 @@ export const VendorPhoto = styled.img`
 `;
 
 export const VendorLocation = styled.p`
-  display: inline-block
+  display: inline-block;
+  position: absolute;
+  box-sizing:border-box;
+  color:rgb(117, 117, 117);
+  font-family:"Graphik Webfont", -apple-system, system-ui, Roboto, "Droid Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size:14px;
+  font-weight:300;
 `;
 
 export const ItemDescriptionList = styled.div`
@@ -257,8 +263,8 @@ width: 281.984px;
 `;
 
 export const VendorNameTitle = styled.h3`
-    display: inline;
-    position: relative;
+    display: inline-block;
+    position: flex;
     box-sizing:border-box;
     color:rgb(34, 34, 34);
     font-family:"Graphik Webfont", -apple-system, system-ui, Roboto, "Droid Sans", "Segoe UI", Helvetica, Arial, sans-serif;
@@ -272,21 +278,22 @@ export const VendorNameTitle = styled.h3`
 `;
 
 export const VendorNameAndLocation = styled.div`
-  display: inline;
+  display: inline-block;
   font-size: 14px;
   width: 188px;
+  position: absolute
 `;
 
 export const VendorPhotoAndLocation = styled.div`
   border-bottom-color:rgb(225, 227, 223);
   box-sizing:border-box;
-  display: box
-  text-align:left
+  text-align:left;
   vertical-align:middle;
   -webkit-font-smoothing:auto;
   width: 188px;
   padding-top:12px;
-  display: inline-block
+  display: inline-block;
+  float: left
 `;
 
 export const VendorIcon = styled.div`
