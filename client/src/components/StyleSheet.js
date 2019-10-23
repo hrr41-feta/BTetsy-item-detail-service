@@ -279,8 +279,6 @@ export const VendorNameAndLocation = styled.div`
 
 export const VendorPhotoAndLocation = styled.div`
   border-bottom-color:rgb(225, 227, 223);
-  border-bottom-style:solid;
-  border-bottom-width:1px;
   box-sizing:border-box;
   display: box
   text-align:left
@@ -317,6 +315,10 @@ export const MadeForYou = styled.div`
   line-height:19.6px;
   text-align: left;
   font-weight: 500
+`;
+
+export const ExceptionsMayApply = styled(MadeForYou)`
+  font-weight: 250
 `;
 
 export const FromCountry = styled.div`

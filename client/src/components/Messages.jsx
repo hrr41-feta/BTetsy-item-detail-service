@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import {
- MessageModal, TitleText, CloseModal, MessageInput, MessageMeet, VendorName, VendorLocation, MessageSellerButton, MeetSection, VendorNameTitle, VendorNameAndLocation, VendorPhotoAndLocation, VendorIcon
+  MessageModal, TitleText, CloseModal, MessageInput, MessageMeet, VendorName, VendorLocation, MessageSellerButton, MeetSection, VendorNameTitle, VendorNameAndLocation, VendorPhotoAndLocation, VendorIcon,
 } from './StyleSheet.js';
 
 
@@ -24,20 +24,22 @@ const Messages = ({
       </div>
       <div>
         <VendorPhotoAndLocation>
-        <VendorIcon>
-        <img src={vendorPhoto} alt=" "/>
-        </VendorIcon>
-        <VendorNameAndLocation>
-        <VendorNameTitle> {vendorFirstName} </VendorNameTitle>
-        <VendorLocation>{vendorLocation}</VendorLocation>
-        </VendorNameAndLocation>
+          <VendorIcon>
+            <img src={vendorPhoto} alt=" " />
+          </VendorIcon>
+          <VendorNameAndLocation>
+            <VendorNameTitle>
+            {' '}
+            {vendorFirstName}
+            {' '}
+          </VendorNameTitle>
+            <VendorLocation>{vendorLocation}</VendorLocation>
+          </VendorNameAndLocation>
 
         </VendorPhotoAndLocation>
       </div>
 
-      <div>
-
-      </div>
+      <div />
       <div>
         <MessageModal toggle={toggle}>
           <CloseModal onClick={() => setToggle(!toggle)}> &times; </CloseModal>
