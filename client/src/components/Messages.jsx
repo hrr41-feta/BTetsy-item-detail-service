@@ -32,8 +32,10 @@ const Messages = ({
             {' '}
             {vendorFirstName}
             {' '}
-          </VendorNameTitle>
+            <div></div>
             <VendorLocation>{vendorLocation}</VendorLocation>
+          </VendorNameTitle>
+
           </VendorNameAndLocation>
 
         </VendorPhotoAndLocation>
