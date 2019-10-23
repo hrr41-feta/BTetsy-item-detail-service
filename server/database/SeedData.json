@@ -15,7 +15,7 @@
         "answer": "Excepteur veniam ullamco amet Lorem incididunt cupidatat ullamco amet amet Lorem pariatur velit veniam consectetur."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Consectetur proident enim consequat nisi ex esse et quis irure non culpa reprehenderit.",
     "messages": {
       "userId": 6644,
@@ -575,7 +575,7 @@
         "answer": "Sit est minim consequat laborum aliquip ex voluptate veniam deserunt."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ut fugiat esse fugiat dolore.",
     "messages": {
       "userId": 4930,
@@ -1191,7 +1191,7 @@
         "answer": "Elit sit sunt anim minim ea anim veniam dolor."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Dolore exercitation deserunt in velit est.",
     "messages": {
       "userId": 5009,
@@ -1219,7 +1219,7 @@
         "answer": "Exercitation culpa cupidatat ullamco excepteur est velit incididunt nostrud elit esse esse."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Qui et tempor laborum laborum nostrud enim non incididunt non irure consequat non anim.",
     "messages": {
       "userId": 2176,
@@ -1275,7 +1275,7 @@
         "answer": "Reprehenderit eu commodo sunt in excepteur esse culpa magna ullamco fugiat."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Occaecat dolore velit id officia qui.",
     "messages": {
       "userId": 3274,
@@ -1303,7 +1303,7 @@
         "answer": "In magna esse ullamco ut laboris."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Amet consequat adipisicing cillum sunt occaecat dolor mollit consectetur labore elit anim elit.",
     "messages": {
       "userId": 8890,
@@ -1331,7 +1331,7 @@
         "answer": "Labore mollit irure cillum esse qui do ex eiusmod consectetur quis elit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Nisi consequat deserunt esse aute ad sint tempor.",
     "messages": {
       "userId": 5589,
@@ -1359,7 +1359,7 @@
         "answer": "Pariatur excepteur consectetur ipsum et consectetur tempor dolore cupidatat magna mollit enim."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laborum sunt dolor aliquip velit reprehenderit cillum.",
     "messages": {
       "userId": 9428,
@@ -1387,7 +1387,7 @@
         "answer": "Ad in labore officia ut qui labore elit ad veniam excepteur dolor esse Lorem cupidatat."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laborum labore nulla proident id tempor deserunt do labore.",
     "messages": {
       "userId": 2170,
@@ -1415,7 +1415,7 @@
         "answer": "Esse ea magna do amet consectetur mollit anim cillum ullamco anim ut."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Sit ipsum nisi Lorem id dolor dolore ex ut irure voluptate qui.",
     "messages": {
       "userId": 3428,
@@ -1443,7 +1443,7 @@
         "answer": "Duis ex dolore est exercitation deserunt sit dolore."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laborum non amet velit incididunt.",
     "messages": {
       "userId": 7691,
@@ -1471,7 +1471,7 @@
         "answer": "Esse veniam proident sit ea dolor eu exercitation proident dolore proident reprehenderit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Commodo ea adipisicing aliquip eu in aute enim ullamco.",
     "messages": {
       "userId": 1482,
@@ -1499,7 +1499,7 @@
         "answer": "Duis consectetur qui deserunt ut magna anim ut qui incididunt esse."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Qui ad minim consequat incididunt velit qui ea.",
     "messages": {
       "userId": 8701,
@@ -1527,7 +1527,7 @@
         "answer": "Labore culpa ullamco laborum occaecat ad dolor incididunt nisi est."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Quis nisi culpa incididunt laboris ad consectetur aliqua aliquip aute.",
     "messages": {
       "userId": 6878,
@@ -1555,7 +1555,7 @@
         "answer": "Reprehenderit excepteur do cupidatat ullamco cillum amet consequat sit consectetur mollit adipisicing incididunt amet tempor."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Excepteur nulla irure occaecat mollit esse nostrud.",
     "messages": {
       "userId": 6797,
@@ -1583,7 +1583,7 @@
         "answer": "Ut sit cupidatat labore deserunt aliqua non qui dolor id magna est ullamco."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Eiusmod adipisicing ipsum reprehenderit laboris in.",
     "messages": {
       "userId": 5909,
@@ -1611,7 +1611,7 @@
         "answer": "Nisi proident adipisicing ea aute quis sint mollit veniam nisi esse aute fugiat."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Voluptate Lorem est ex proident officia laboris eiusmod commodo nisi commodo ad esse quis.",
     "messages": {
       "userId": 1911,
@@ -1639,7 +1639,7 @@
         "answer": "Aliqua consectetur consequat voluptate adipisicing ad ad."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Elit quis adipisicing consectetur voluptate occaecat fugiat.",
     "messages": {
       "userId": 5403,
@@ -1667,7 +1667,7 @@
         "answer": "Fugiat incididunt aute irure eiusmod enim amet aliqua sit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Cupidatat dolore nostrud aute commodo in dolore nisi fugiat.",
     "messages": {
       "userId": 2590,
@@ -1695,7 +1695,7 @@
         "answer": "Nostrud consectetur ad nisi commodo ex aliqua ullamco elit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Non est duis quis eu ipsum duis quis in duis veniam laboris.",
     "messages": {
       "userId": 7395,
@@ -1723,7 +1723,7 @@
         "answer": "Eu sunt pariatur id eu."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Veniam anim non in ex adipisicing enim eiusmod et velit proident officia laborum consectetur aute.",
     "messages": {
       "userId": 9875,
@@ -1751,7 +1751,7 @@
         "answer": "Aliqua non voluptate deserunt Lorem ullamco non."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Officia irure veniam do veniam dolore tempor amet incididunt duis pariatur quis esse.",
     "messages": {
       "userId": 8257,
@@ -1779,7 +1779,7 @@
         "answer": "Non dolor ex laborum Lorem nisi."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Minim incididunt tempor non irure sint voluptate enim.",
     "messages": {
       "userId": 6514,
@@ -1807,7 +1807,7 @@
         "answer": "Quis sit occaecat cillum sint commodo et incididunt cillum veniam culpa laboris ex magna minim."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Consequat eu exercitation sunt elit consectetur sint reprehenderit anim ipsum.",
     "messages": {
       "userId": 5439,
@@ -1835,7 +1835,7 @@
         "answer": "Excepteur qui incididunt esse dolore Lorem eiusmod."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ullamco ut id voluptate Lorem ipsum adipisicing duis nostrud.",
     "messages": {
       "userId": 6076,
@@ -1863,7 +1863,7 @@
         "answer": "Enim reprehenderit commodo exercitation aliqua ad esse."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ex aliqua pariatur consequat eiusmod quis adipisicing dolore.",
     "messages": {
       "userId": 8976,
@@ -1891,7 +1891,7 @@
         "answer": "Proident in laboris ut irure sint esse."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Tempor voluptate nisi non pariatur nisi do qui ad cupidatat excepteur proident mollit duis.",
     "messages": {
       "userId": 4846,
@@ -1919,7 +1919,7 @@
         "answer": "Sint commodo aute eu proident do eu aliqua tempor cillum sunt anim culpa excepteur."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Aute pariatur eiusmod magna non cupidatat culpa ipsum laborum reprehenderit consectetur.",
     "messages": {
       "userId": 8742,
@@ -1947,7 +1947,7 @@
         "answer": "Ipsum incididunt nostrud Lorem ex aliqua."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Lorem enim id aliquip laboris ad.",
     "messages": {
       "userId": 8120,
@@ -1975,7 +1975,7 @@
         "answer": "In do aliqua pariatur culpa."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Amet sunt est sunt Lorem.",
     "messages": {
       "userId": 8544,
@@ -2003,7 +2003,7 @@
         "answer": "Labore excepteur qui aliqua est veniam enim ullamco excepteur dolor."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Eu id elit qui esse sint.",
     "messages": {
       "userId": 6597,
@@ -2031,7 +2031,7 @@
         "answer": "Ex proident occaecat veniam adipisicing sit nulla reprehenderit cupidatat elit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Commodo minim cillum incididunt aute laboris consequat dolore id tempor nostrud esse.",
     "messages": {
       "userId": 9993,
@@ -2059,7 +2059,7 @@
         "answer": "Eiusmod pariatur proident eu consectetur non ipsum irure cillum eu et voluptate nisi in duis."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Eu eiusmod sit ipsum labore ex proident eu qui ad do veniam dolore.",
     "messages": {
       "userId": 6639,
@@ -2087,7 +2087,7 @@
         "answer": "Laborum Lorem elit esse sunt."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Consequat aute quis adipisicing mollit duis est cupidatat cupidatat amet.",
     "messages": {
       "userId": 5123,
@@ -2115,7 +2115,7 @@
         "answer": "Ea excepteur exercitation quis ut."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Do et ex laboris dolor qui cillum quis do exercitation commodo anim non cillum.",
     "messages": {
       "userId": 4923,
@@ -2143,7 +2143,7 @@
         "answer": "Eiusmod elit laboris cillum nostrud tempor ex."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laborum ullamco labore laboris consequat veniam consequat culpa eiusmod nostrud.",
     "messages": {
       "userId": 9807,
@@ -2171,7 +2171,7 @@
         "answer": "Et ad eiusmod est enim exercitation."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Non ea minim eiusmod irure cupidatat incididunt pariatur sunt amet minim ullamco do aute.",
     "messages": {
       "userId": 3736,
@@ -2199,7 +2199,7 @@
         "answer": "Amet culpa exercitation in cillum nostrud in velit consectetur ex do."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Irure fugiat voluptate ut nulla incididunt dolore.",
     "messages": {
       "userId": 3917,
@@ -2227,7 +2227,7 @@
         "answer": "Laborum dolore esse mollit duis cillum dolore nostrud."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Aliquip labore consectetur esse proident laborum id.",
     "messages": {
       "userId": 6391,
@@ -2255,7 +2255,7 @@
         "answer": "Adipisicing laboris ipsum aute ut est est nulla qui tempor id occaecat."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laborum pariatur irure ex do velit duis occaecat.",
     "messages": {
       "userId": 5520,
@@ -2283,7 +2283,7 @@
         "answer": "Ut esse nostrud enim elit exercitation ut non esse dolore excepteur."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Reprehenderit cupidatat pariatur cupidatat elit nulla ut mollit ut eu nostrud culpa incididunt occaecat.",
     "messages": {
       "userId": 3470,
@@ -2311,7 +2311,7 @@
         "answer": "Ipsum laboris eu laboris mollit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Quis fugiat exercitation eiusmod commodo.",
     "messages": {
       "userId": 8542,
@@ -2339,7 +2339,7 @@
         "answer": "Eiusmod velit duis eiusmod nostrud est pariatur."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Labore velit deserunt veniam pariatur.",
     "messages": {
       "userId": 3093,
@@ -2367,7 +2367,7 @@
         "answer": "Cupidatat excepteur id ut adipisicing irure nulla proident aute amet et proident irure consectetur velit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Eiusmod anim fugiat ut ad laboris dolore labore.",
     "messages": {
       "userId": 4394,
@@ -2395,7 +2395,7 @@
         "answer": "Aute proident reprehenderit eiusmod eiusmod."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Cillum occaecat labore cillum duis id incididunt mollit et reprehenderit.",
     "messages": {
       "userId": 6889,
@@ -2423,7 +2423,7 @@
         "answer": "Non reprehenderit veniam in reprehenderit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Culpa quis proident laboris veniam dolore irure velit irure anim cupidatat laborum qui eu culpa.",
     "messages": {
       "userId": 7685,
@@ -2451,7 +2451,7 @@
         "answer": "Laborum consequat occaecat aute exercitation cillum aliqua adipisicing voluptate enim quis mollit occaecat exercitation."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Quis velit laborum Lorem do excepteur sint excepteur.",
     "messages": {
       "userId": 7992,
@@ -2479,7 +2479,7 @@
         "answer": "Occaecat excepteur laboris irure sint ut consequat esse anim."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Excepteur occaecat qui elit do sint qui velit occaecat minim.",
     "messages": {
       "userId": 7504,
@@ -2507,7 +2507,7 @@
         "answer": "Non sunt aliquip cupidatat velit fugiat magna."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ad amet ex aliquip excepteur ex ea nulla deserunt adipisicing proident id.",
     "messages": {
       "userId": 3835,
@@ -2535,7 +2535,7 @@
         "answer": "Minim consequat id commodo nulla laboris anim."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Nostrud exercitation est nostrud et.",
     "messages": {
       "userId": 4184,
@@ -2563,7 +2563,7 @@
         "answer": "Est eiusmod laborum proident esse."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Reprehenderit sint ea ut esse enim est nulla consequat nisi cillum nostrud et aute.",
     "messages": {
       "userId": 2871,
@@ -2591,7 +2591,7 @@
         "answer": "Laborum est elit aliquip ipsum."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Voluptate aliqua eiusmod ipsum adipisicing culpa cillum pariatur voluptate.",
     "messages": {
       "userId": 2099,
@@ -2619,7 +2619,7 @@
         "answer": "Ad Lorem voluptate Lorem anim duis id et minim esse nisi."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Labore labore incididunt labore deserunt veniam.",
     "messages": {
       "userId": 1513,
@@ -2647,7 +2647,7 @@
         "answer": "Sint officia commodo id excepteur laborum excepteur elit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Enim reprehenderit elit elit consequat.",
     "messages": {
       "userId": 6327,
@@ -2675,7 +2675,7 @@
         "answer": "Ea laboris aliquip sunt pariatur sint mollit."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ad officia aliquip labore ullamco.",
     "messages": {
       "userId": 1181,
@@ -2703,7 +2703,7 @@
         "answer": "Ut esse qui commodo excepteur eu sit dolor elit Lorem."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Ex magna et quis sunt incididunt ut ullamco mollit amet exercitation et est nostrud.",
     "messages": {
       "userId": 1764,
@@ -2731,7 +2731,7 @@
         "answer": "Aliqua nisi veniam velit reprehenderit excepteur aliqua consequat."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Labore et sit ex amet ipsum id reprehenderit minim irure Lorem ut excepteur reprehenderit sunt.",
     "messages": {
       "userId": 2877,
@@ -2759,7 +2759,7 @@
         "answer": "Excepteur voluptate tempor cupidatat quis qui ad ex dolore laboris qui officia ullamco ullamco sunt."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Laboris laboris officia dolor in commodo sit Lorem nulla est aliqua ullamco et mollit.",
     "messages": {
       "userId": 3452,
@@ -2787,7 +2787,7 @@
         "answer": "Fugiat id eu ad culpa ullamco."
       }
     ],
-    "vendorPhoto": https://picsum.photos/id/249/100/100,
+    "vendorPhoto": "https://picsum.photos/id/249/100/100",
     "vendorResponseTime": "Pariatur laboris incididunt dolore culpa excepteur.",
     "messages": {
       "userId": 6853,
