@@ -11,25 +11,31 @@ function App() {
   const sample = sampleData.sampleData[0];
   const [data, setData] = useState(sample);
 
-  async function fetchData() {
-    const res = await axios.get('/index');
+  function getProductId() {
+    const searchParams = new URLSearchParams(window.location.search);
+    const productId = Number(searchParams.get('productId'));
+    return productId;
+  }
+  async function fetchData(productId) {
+    const res = await axios.get(`/api/description/${productId}`);
     const tempData = res.data;
     setData(tempData);
   }
   useEffect(() => {
-    fetchData();
-  });
+    const Id = getProductId();
+    console.log(Id);
+    fetchData(Id);
+  }, []);
   return (
     <div>
       <div>
-        <ItemDescription description={data.productId[0].productDescription} />
+        <ItemDescription description={data.product.productDescription} />
       </div>
       <div>
         <ShopPolicies policies={data.shopPolicies} country={data.vendorCountry} />
       </div>
       <div>
         <Messages
-          messages={data.messages.message}
           vendorName={data.vendorName}
           vendorFirstName={data.vendorFirstName}
           vendorLastName={data.vendorLastName}
