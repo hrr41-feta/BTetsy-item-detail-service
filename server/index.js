@@ -14,11 +14,15 @@ app.use((req, res, next) => {
 });
 
 
-app.get('/products/:productId', (req, res) => {
-  const { productId } = req.params;
+app.get('/api/:productId', (req, res) => {
+  const productId = req.params.productId;
+  console.log(productId);
   models.getOneItem(productId)
     .then((value) => res.status(200).json(value))
-    .catch((error) => error);
+    .catch((err) => {
+      res.status(404)
+      res.send('Product not found');
+    });
 });
 
 app.listen(port, () => {

@@ -11,20 +11,23 @@ function App() {
   const sample = sampleData.sampleData[0];
   const [data, setData] = useState(sample);
 
-  async function fetchData() {
+  function getProductId() {
     const searchParams = new URLSearchParams(window.location.search);
     const productId = Number(searchParams.get('productId'));
-    const res = await axios.get(`/products/${productId}`);
+    return productId;
+  }
+  async function fetchData(productId) {
+    const res = await axios.get(`/api/${productId}`);
     const tempData = res.data;
-    console.log(tempData);
     setData(tempData);
   }
   useEffect(() => {
-    fetchData();
-  },[]);
+    const Id = getProductId();
+    console.log(Id);
+    fetchData(Id);
+  }, []);
   return (
     <div>
-      {console.log('data', data.product.productDescription)}
       <div>
         <ItemDescription description={data.product.productDescription} />
       </div>

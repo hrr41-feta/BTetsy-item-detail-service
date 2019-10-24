@@ -29,12 +29,12 @@ const Messages = ({
           </VendorIcon>
           <VendorNameAndLocation>
             <VendorNameTitle>
-            {' '}
-            {vendorFirstName}
-            {' '}
-            <div></div>
-            <VendorLocation>{vendorLocation}</VendorLocation>
-          </VendorNameTitle>
+              {' '}
+              {vendorFirstName}
+              {' '}
+              <div />
+              <VendorLocation>{vendorLocation}</VendorLocation>
+            </VendorNameTitle>
 
           </VendorNameAndLocation>
 
