@@ -5,12 +5,12 @@ mongoose.connect('mongodb://localhost/BTetsy', { useNewUrlParser: true, useUnifi
 const itemDetailsSchema = new mongoose.Schema({
   vendorName: String,
   vendorFirstName: String,
-  shopPolicies: { returnsAndExchange: String, additionalPolicies: String },
+  shopPolicies: { returnsAndExchange: String, shippingPolicies: String, additionalPolicies: String },
   faq: [{ question: String, answer: String }],
   vendorPhoto: String,
   vendorResponseTime: String,
-  messages: [{ userID: Number, message: String }],
-  productId: [{ productNumber: Number, productName: String, productDescription: String }],
+  productId: Number,
+  product: [{ productName: String, productDescription: String }],
 });
 
 const itemDetails = mongoose.model('itemDetails', itemDetailsSchema);
