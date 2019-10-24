@@ -5,7 +5,7 @@ import {
 
 
 const Messages = ({
-  messages, vendorName, vendorFirstName, vendorLastName, vendorLocation, vendorPhoto,
+  vendorName, vendorFirstName, vendorLastName, vendorLocation, vendorPhoto,
 }) => {
   const [toggle, setToggle] = useState(true);
   const [MessageToggle, setMessages] = useState(true);
@@ -29,12 +29,12 @@ const Messages = ({
           </VendorIcon>
           <VendorNameAndLocation>
             <VendorNameTitle>
-            {' '}
-            {vendorFirstName}
-            {' '}
-            <div></div>
-            <VendorLocation>{vendorLocation}</VendorLocation>
-          </VendorNameTitle>
+              {' '}
+              {vendorFirstName}
+              {' '}
+              <div />
+              <VendorLocation>{vendorLocation}</VendorLocation>
+            </VendorNameTitle>
 
           </VendorNameAndLocation>
 
