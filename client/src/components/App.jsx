@@ -12,8 +12,8 @@ function App() {
   const [data, setData] = useState(sample);
 
   async function fetchData() {
-    let searchParams = new URLSearchParams(window.location.search);
-    let productId = Number(searchParams.get('productId'));
+    const searchParams = new URLSearchParams(window.location.search);
+    const productId = Number(searchParams.get('productId'));
     const res = await axios.get(`/products/${productId}`);
     const tempData = res.data;
     console.log(tempData);
@@ -21,18 +21,18 @@ function App() {
   }
   useEffect(() => {
     fetchData();
-  });
+  },[]);
   return (
     <div>
+      {console.log('data', data.product.productDescription)}
       <div>
-        <ItemDescription description={data.productId[0].productDescription} />
-            </div>
+        <ItemDescription description={data.product.productDescription} />
+      </div>
       <div>
         <ShopPolicies policies={data.shopPolicies} country={data.vendorCountry} />
       </div>
       <div>
         <Messages
-          messages={data.messages.message}
           vendorName={data.vendorName}
           vendorFirstName={data.vendorFirstName}
           vendorLastName={data.vendorLastName}

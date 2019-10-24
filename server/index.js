@@ -3,7 +3,8 @@ const models = require('./database/models.js');
 
 const app = express();
 app.use(express.json());
-app.use(express.static(`${__dirname}/../client/dist`));
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('./public'));
 const port = 3000;
 app.use((req, res, next) => {
   res.append('Access-Control-Allow-Origin', ['*']);
@@ -14,10 +15,9 @@ app.use((req, res, next) => {
 
 
 app.get('/products/:productId', (req, res) => {
-  const productId = req.params.productId;
-  console.log(productId)
+  const { productId } = req.params;
   models.getOneItem(productId)
-    .then((value) => res.json(value))
+    .then((value) => res.status(200).json(value))
     .catch((error) => error);
 });
 

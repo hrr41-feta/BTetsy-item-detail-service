@@ -1,31 +1,26 @@
 // eslint-disable-next-line no-unused-vars
 module.exports.sampleData = [
   {
-    vendorName: 'ut',
-    vendorFirstName: 'Hurst',
-    vendorLocation: 'Texas',
-    vendorCountry: 'Cuba',
+    vendorName: 'commodo',
+    vendorFirstName: 'Woods',
+    vendorLocation: 'Florida',
+    vendorCountry: 'Sri Lanka',
     shopPolicies: {
-      returnsAndExchange: 'Ex et quis non irure et consectetur. Aliquip consequat sunt fugiat exercitation adipisicing excepteur nostrud id mollit Lorem. Ex nostrud dolor qui consequat non pariatur mollit consequat. Irure cillum adipisicing cillum culpa minim ullamco cupidatat et ex minim aliquip in laboris. Consequat reprehenderit minim dolor id culpa dolor anim.',
-      shippingPolicies: 'Ipsum do ipsum dolor in amet labore aliquip laborum. Commodo nulla enim in do tempor id ut ut. Occaecat ipsum labore deserunt commodo incididunt Lorem nulla fugiat. Velit ad exercitation aute reprehenderit et ea veniam sint. Adipisicing incididunt enim culpa elit culpa.',
-      additionalPolicies: 'Ipsum do elit cillum labore. Voluptate ex incididunt magna esse eu adipisicing nisi. Nisi eiusmod ut est laborum qui ut. Fugiat minim est ex ipsum enim velit do do ut velit. Do proident qui non sit pariatur minim cillum in ea quis proident. Et sint ipsum anim aliquip fugiat aliquip sint ex pariatur. Ea officia incididunt amet aliqua velit nostrud et tempor.',
+      returnsAndExchange: 'Laboris nostrud ea exercitation anim fugiat culpa adipisicing et qui cupidatat. Minim officia elit cupidatat voluptate aute aliquip anim culpa tempor. Laborum id nostrud aliquip ullamco cupidatat. Occaecat ad ea culpa dolore Lorem adipisicing fugiat non veniam excepteur reprehenderit. Et esse magna sint tempor voluptate excepteur dolor laboris sit commodo labore magna in ullamco. Dolore reprehenderit et magna duis et irure veniam officia ipsum officia elit. Anim ad excepteur cupidatat enim do.',
+      shippingPolicies: 'Commodo ea deserunt consectetur sit ullamco. Incididunt labore culpa pariatur commodo aliquip incididunt Lorem. Elit enim elit elit enim ullamco aute tempor mollit commodo sunt nostrud. Nostrud voluptate ea laborum proident nulla non mollit nulla quis.',
+      additionalPolicies: 'Excepteur amet commodo ullamco ut pariatur fugiat est adipisicing tempor. Adipisicing in est non mollit est eiusmod est minim. Proident consequat dolor irure minim.',
     },
     faq: [
       {
-        question: 'Consequat magna voluptate commodo nulla occaecat nostrud dolore proident occaecat dolore labore nisi duis.',
-        answer: 'Excepteur veniam ullamco amet Lorem incididunt cupidatat ullamco amet amet Lorem pariatur velit veniam consectetur.',
+        question: 'Anim nisi minim aliqua ex proident ex qui.',
+        answer: 'Amet labore voluptate commodo incididunt magna incididunt tempor magna.',
       },
     ],
     vendorPhoto: 'https://picsum.photos/id/229/100/100',
-    vendorResponseTime: 'Consectetur proident enim consequat nisi ex esse et quis irure non culpa reprehenderit.',
-    messages: {
-      userId: 6644,
-      message: 'Aute esse magna dolore enim.',
+    vendorResponseTime: 'Aliqua consectetur cillum sint qui id laboris minim.',
+    productId: 0,
+    product: {
+      productName: 'ullamco',
+      productDescription: 'Enim eu quis deserunt nulla deserunt et cupidatat enim incididunt. Proident aliqua proident aliqua minim esse adipisicing aliqua ex ullamco. Minim reprehenderit commodo esse aliquip. Nostrud veniam magna Lorem laborum ad nulla ut reprehenderit qui aliqua magna sunt consectetur consequat. Excepteur cillum aliquip qui nostrud. Cillum proident veniam ipsum ad proident irure nisi dolor cupidatat commodo laboris laboris minim. Officia qui Lorem Lorem deserunt ea.\n\nSint aliquip sint nostrud qui laborum laborum cillum dolor et enim minim laborum sunt. Sit proident exercitation commodo fugiat ad ipsum sunt velit non excepteur tempor amet commodo. Ex qui aliqua magna consectetur culpa ea nulla deserunt tempor quis pariatur ad ut. Occaecat esse ullamco ipsum eiusmod aliquip consequat. Cupidatat ullamco fugiat aliqua tempor in ipsum ullamco ad labore do dolor ex qui. Anim dolor adipisicing minim dolor adipisicing ut incididunt cillum id adipisicing officia in.\n\nNisi est laboris occaecat cillum occaecat esse in dolore. Eiusmod enim nulla est sit incididunt ipsum ex non labore nostrud. Enim sint nulla nostrud aliqua Lorem ipsum do quis ea. Proident aute laborum incididunt non ex magna ex elit ipsum amet incididunt. Commodo ea pariatur in irure duis ipsum aliqua exercitation minim. Dolor nisi in ea laboris.',
     },
-    productId: [{
-      productNumber: 3081,
-      productName: 'nostrud',
-      productDescription: 'Eu consequat ad enim veniam dolor incididunt. Quis aliqua laborum sunt id officia amet culpa est aute tempor in occaecat nulla. Consectetur anim elit dolor proident ut irure magna. Anim nisi mollit do enim laborum.\n\nPariatur ex pariatur ex do elit ad quis veniam aute nisi consequat. Commodo irure tempor cillum qui aliqua aliqua. Aliqua eu ex commodo occaecat excepteur do qui culpa in. Labore enim ullamco ullamco minim ullamco id ullamco ad est non veniam ut. Eu mollit irure non ipsum amet do. Eu voluptate ex voluptate adipisicing elit veniam pariatur.\n\nOccaecat ipsum minim eu eiusmod tempor enim consequat est tempor. Nisi incididunt velit eiusmod ut ad deserunt enim. Sit quis sunt qui quis est laboris est cillum ut est consectetur officia mollit amet. Sit eiusmod dolore anim in adipisicing et occaecat ipsum aute dolor occaecat. Deserunt voluptate sint mollit sint.',
-
-    }],
   }];

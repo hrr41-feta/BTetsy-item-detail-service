@@ -10,7 +10,7 @@ const itemDetailsSchema = new mongoose.Schema({
   vendorPhoto: String,
   vendorResponseTime: String,
   productId: Number,
-  product: [{ productName: String, productDescription: String }],
+  product: { productName: String, productDescription: String },
 });
 
 const itemDetails = mongoose.model('itemDetails', itemDetailsSchema);
