@@ -10,9 +10,15 @@ function App() {
   // const [description, getDescription] = useState(sampleData[0].productId.productDescription);
   const sample = sampleData.sampleData[0];
   const [data, setData] = useState(sample);
+  const [productId, setProductId] = useState(1)
+  const searchParams = new URLSearchParams(window.location.search);
 
+  function setId() {
+    setProductId(Number(searchParams.get('productId')));
+  };
   async function fetchData() {
-    const res = await axios.get('/index');
+    setId();
+    const res = await axios.get(`/product/${productId}`);
     const tempData = res.data;
     setData(tempData);
   }
