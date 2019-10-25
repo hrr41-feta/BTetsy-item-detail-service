@@ -225,7 +225,7 @@ padding-left:0px;
 padding-right:0px;
 padding-top:18px;
 text-side-adjust: 100%;
-width: 33%
+width: 500px;
 `;
 
 export const FaqContainer = styled.div`
@@ -348,5 +348,5 @@ export const FromCountry = styled.div`
 `;
 
 export const ShopPolicyContainer = styled.div`
-  width: 33%
+  width: 500px;
 `;
