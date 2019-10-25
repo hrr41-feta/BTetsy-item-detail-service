@@ -17,7 +17,7 @@ function App() {
     return productId;
   }
   async function fetchData(productId) {
-    const res = await axios.get(`/api/${productId}`);
+    const res = await axios.get(`/api/description/${productId}`);
     const tempData = res.data;
     setData(tempData);
   }
