@@ -14,6 +14,17 @@ app.use((req, res, next) => {
 });
 
 
+//Create
+app.post('/api/description', (req, res) => {
+  models.postOneItem(req.body)
+  .then((value) => res.status(200).json(value))
+  .catch((err) => {
+    res.status(404)
+    res.send('Failed to post item');
+  });
+});
+
+//Read
 app.get('/api/description/:productId', (req, res) => {
   const productId = req.params.productId;
   console.log(productId);
@@ -24,6 +35,30 @@ app.get('/api/description/:productId', (req, res) => {
       res.send('Product not found');
     });
 });
+
+//Update
+app.put('/api/description/:productId', function (req, res) {
+  var productId = req.params.productId;
+  var updatedItem = req.body;
+  models.updateOneItem(productId, updatedItem)
+    .then((value) => res.status(200).json(value))
+    .catch((err) => {
+      res.status(404)
+      res.send(`Item ${productId} not updated`);
+    });
+})
+
+//Delete
+app.delete('/api/description/:productId', function (req, res) {
+  var productId = req.params.productId;
+  models.deleteOneItem(productId)
+    .then((value) => res.status(200).json(value))
+    .catch((err) => {
+      res.status(404)
+      res.send(`Item ${productId} not deleted`);
+    });
+})
+
 
 app.listen(port, () => {
   // eslint-disable-next-line no-console
