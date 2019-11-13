@@ -19,7 +19,32 @@ function App() {
   async function fetchData(productId) {
     const res = await axios.get(`/api/description/${productId}`);
     const tempData = res.data;
-    setData(tempData);
+    let restructuredData =
+      {
+        vendorName: res.data.vendorname,
+        vendorFirstName: res.data.vendorfirstname,
+        vendorLocation: res.data.vendorLocation,
+        vendorCountry: res.data.vendorcountry,
+        shopPolicies: {
+          returnsAndExchange: res.data.returnsandexchange,
+          shippingPolicies: res.data.shippingpolicies,
+          additionalPolicies: res.data.additionalpolicies,
+        },
+        faq: [
+          {
+            question: res.data.question,
+            answer: res.data.answer,
+          },
+        ],
+        vendorPhoto: res.data.vendorphoto,
+        vendorResponsetime: res.data.vendorresponsetime,
+        productId: res.data.productid,
+        product: {
+          productName: res.data.productname,
+          productDescription: res.data.productdescription,
+        }
+      };
+    setData(restructuredData);
   }
   useEffect(() => {
     const Id = getProductId();
