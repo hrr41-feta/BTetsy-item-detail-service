@@ -1,5 +1,10 @@
+
+//new relic uses:
+require('newrelic');
+
 const express = require('express');
-const models = require('./database/models.js');
+// const models = require('./database/models.js');
+const { pool } = require('./database/postgres/pgconfig')
 
 const app = express();
 app.use(express.json());
@@ -13,7 +18,7 @@ app.use((req, res, next) => {
   next();
 });
 
-
+/*
 //Create
 app.post('/api/description', (req, res) => {
   models.postOneItem(req.body)
@@ -23,10 +28,13 @@ app.post('/api/description', (req, res) => {
     res.send('Failed to post item');
   });
 });
+*/
 
 //Read
 app.get('/api/description/:productId', (req, res) => {
   const productId = req.params.productId;
+
+  /* PREVIOUS DB
   console.log(productId);
   models.getOneItem(productId)
     .then((value) => res.status(200).json(value))
@@ -34,8 +42,19 @@ app.get('/api/description/:productId', (req, res) => {
       res.status(404)
       res.send('Product not found');
     });
+  */
+
+  //pg
+  pool.query(`select * from description natural join faq natural join shopPolicies natural join product  where description.productId = ${productId}`, (error, results) => {
+    if (error) {
+      throw error
+    }
+    res.status(200).json(results.rows[0]);
+    console.log(results.rows);
+  })
 });
 
+/*
 //Update
 app.put('/api/description/:productId', function (req, res) {
   var productId = req.params.productId;
@@ -47,7 +66,9 @@ app.put('/api/description/:productId', function (req, res) {
       res.send(`Item ${productId} not updated`);
     });
 })
+*/
 
+/*
 //Delete
 app.delete('/api/description/:productId', function (req, res) {
   var productId = req.params.productId;
@@ -58,6 +79,7 @@ app.delete('/api/description/:productId', function (req, res) {
       res.send(`Item ${productId} not deleted`);
     });
 })
+*/
 
 
 app.listen(port, () => {
