@@ -139,7 +139,7 @@ function writeProductRecords(writer, encoding, callback) {
       const productId = id;
       const productName = '"' + faker.commerce.productName() + '"';
       const productDescription = '"' + faker.lorem.paragraphs() + '"';
-      const data = id`,`productId`,${productName},${productDescription}\n`;
+      const data = `${id}, ${productId},${productName},${productDescription}\n`;
 
       if (i % 1000 === 0){
         console.log(i);
