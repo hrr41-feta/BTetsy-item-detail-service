@@ -45,7 +45,7 @@ app.get('/api/description/:productId', (req, res) => {
   */
 
   //pg
-  pool.query(`select * from description natural join faq natural join shopPolicies natural join product  where description.productId = ${productId}`, (error, results) => {
+  pool.query(`select * from description natural join faq natural join shopPolicies natural join product  where description.id = ${productId}`, (error, results) => {
     if (error) {
       throw error
     }
